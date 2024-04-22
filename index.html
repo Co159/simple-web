@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="script.js"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/apple-touch-icon.png"
+    />
+    <title>Fenil Patel</title>
+  </head>
+  <body>
+    <!-- header start here -->
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <a href="index.html">Fenil <span>Patel</span></a>
+        </div>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#contact">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header end here -->
+
+    <main>
+      <!-- home start here -->
+      <section id="home" class="home">
+        <h1>
+          Welcome to my portfolio
+        </h1>
+      </section>
+      <!-- home end here -->
+
+      <!-- about start here -->
+      <section id="about" class="about">
+        <div class="about-1">
+          <img
+            src="/images/about.jpg"
+            alt="about image"
+            height="auto"
+            width="70%"
+          />
+        </div>
+        <div class="about-2">
+          <h1>Lorem</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus alias
+            aut expedita accusantium, quae officia maxime nihil. Dignissimos,
+            consectetur corrupti beatae repellat consequuntur magni optio
+            veritatis eius sunt id aliquam voluptatibus reprehenderit nemo?
+            ipsum, dolor sit amet consectetur adipisicing elit. Eos rerum
+            recusandae cumque quam voluptate incidunt inventore a tenetur
+            reiciendis quod nemo eveniet repellat consequuntur, sit vitae nobis
+            fugiat itaque commodi, mollitia, in voluptates illum.
+          </p>
+          <a href="#contact">Contact now</a>
+        </div>
+      </section>
+      <!-- about  end here -->
+
+      <!-- service start here -->
+
+      <section id="services" class="services">
+        <h1>Our Services</h1>
+        <br />
+        <br />
+        <div class="row">
+              <!-- <a class="prev" onclick="plusSlides(-1)">❮</a> -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="/images/ser-1.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <div>
+<h1>Service - 1</h1> 
+                    <p>Architect & Engineer</p> 
+                    <p>We love that guy</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="/images/ser-2.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <div>
+<h1>Service - 2</h1> 
+                    <p>Architect & Engineer</p> 
+                    <p>We love that guy</p>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="/images/ser-3.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <div>
+<h1>Service - 3</h1> 
+                    <p>Architect & Engineer</p> 
+                    <p>We love that guy</p>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="/images/ser-4.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Service - 4</h1> 
+                    <p>Architect & Engineer</p> 
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+              </div>
+              <!-- <a class="next" onclick="plusSlides(1)">❯</a> -->
+            </div>
+
+      </section>
+      <!-- servuce end here -->
+
+      <!-- contact start here -->
+      <section id="contact" class="contactus">
+        <div class="container-contact">
+          <h1>Contact us</h1>
+          <br />
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Your name.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your last name.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option value="India">India</option>
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-75">
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something.."
+                  style="height: 200px;"
+                ></textarea>
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <input type="submit" class="contact-btn" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- contact end here -->
+    </main>
+
+    <footer class="foot">
+      <div class="first-footer">
+        <div class="foot-1">
+          <h2>Our Pages</h2>
+
+          <p>Home</p>
+          <p>Service</p>
+          <p>About</p>
+          <p>Project</p>
+          <p>Contact us</p>
+        </div>
+
+        <div class="foot-3">
+          <h3>Company Address :</h3>
+          <p>
+            204-205 Titanium One, Near Pakwan Cross Road, S.G.Highway,<br />
+            Bodakdev, Ahmedabad, Gujarat, India - 380054
+          </p>
+          <h3>Phone :</h3>
+          <p>+91-8866531035</p>
+          <h3>Email :</h3>
+          <p>
+            sales@centillionsofttech.com <br />
+            career@centillionsofttech.com
+          </p>
+        </div>
+
+        <div class="foot-2">
+          <h2>Our services</h2>
+          <p>Web Development</p>
+          <p>Mobile App Development</p>
+          <p>Desktop App Development</p>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="flex-all-center">
+          <p>Copyright &copy; Fenil Patel | All Rights Reserved.</p>
+          <div class="icon-1">
+            <div class="item">
+              <a
+                href="https://www.linkedin.com/company/centillionsoftechpvtltd/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://centillionsoftech.com/"
+                ><i class="fa-brands fa-google"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
